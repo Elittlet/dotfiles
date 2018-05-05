@@ -1,0 +1,412 @@
+{
+	"folder_history":
+	[
+	],
+	"last_version": 3143,
+	"last_window_id": 2,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 2028.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/elittlet/Documents/Classes/CSC376/hw2/test1-messenger-py.py"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 281.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 3768.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/elittlet/Documents/Code/scraper/class_scraper.py",
+					"settings":
+					{
+						"buffer_size": 1974,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "#!python\nfrom bs4 import BeautifulSoup\nimport re\nimport requests\nimport psycopg2\n\n\n\nget_info(subject, catalog_nbr, c_id): \n    url = 'https://offices.depaul.edu/_layouts/DUC.SR.ClassSvc/DUClassSvc.ashx?action=getclasses&strm=1010&subject=' + subject + '&catalog_nbr'=catalog_nbr\n    payload = requests.get(url).json()\n    return payload\n\n\ndef get_day(paylaod):\n    days = [\"mon\", \"tues\", \"wed\", \"thurs\", \"fri\", \"sat\"]\n    for day in days:\n        if payload[day] = \"Y\":\n            return day\n\n\n\nimport_info(payload, uuid):\n    for i in payload:\n        section_nbr = i['class_section']\n        class_nbr = i['class_nbr']\n        day = get_day(i)\n        s_time = i['meeting_start_time']\n        e_time = i['meeting_end_time']\n        c_id = uuid\n        cur.execute(\"INSERT \")\n\n\n\ndef start_connection():\n    dsn = \"postgre://tim:PASSWORD@35.188.136.193:5432/\"\n    conn = psycopg2.connect(dsn)\n    cur = conn.cursor()\n    return cur\n\n\n\n\nif __name__ == \"__main__\":\n    cur = start_connection()\n    cur.execute(\"SELECT subject, course_nbr, id FROM csc394_courses\")\n    row = cur.fetchone()\n\n    while row is not None:\n        sub = row[1]\n        course_nbr = row[2]\n        c_id = row[3]\n        payload = get_info(sub, course_nbr, c_id)\n        import_info(payload, c_id)\n        row = fetchone()\n\n\n\n\n\n\n\n    \n",
+					"file": "/home/elittlet/script2.py",
+					"file_size": 793,
+					"file_write_time": 131696812543766557,
+					"settings":
+					{
+						"buffer_size": 1309,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 258.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/elittlet/.config/sublime-text-3/Packages/User/javascript.sublime-build",
+				"/home/elittlet/Documents/Classes/CSC376/project/ChatServer.py",
+				"/home/elittlet/Documents/Classes/CSC376/project/ChatClient.py",
+				"/home/elittlet/Documents/Classes/CSC376/project/guyChatClient.py",
+				"/home/elittlet/.vimrc",
+				"/home/elittlet/Documents/Classes/CSC443/Project3/tester.c",
+				"/home/elittlet/Documents/Classes/CSC358/test_wizard.lisp",
+				"/home/elittlet/test.js",
+				"/home/elittlet/Documents/Classes/CSC376/hw4/handle_messages.py",
+				"/home/elittlet/Documents/Classes/CSC376/hw2/test1-messenger-py.py"
+			],
+			"find":
+			{
+				"height": 46.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"sockText",
+					"ftplist"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/elittlet/Documents/Code/scraper/class_scraper.py",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1974,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Python/Python.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 121.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/elittlet/script2.py",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1309,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										775,
+										775
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Python/Python.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 46.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 204.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "Packages/User/javascript.sublime-build",
+			"position": "0,0,0,0,0,60,60,3772,2032,3840,2160",
+			"project": "",
+			"replace":
+			{
+				"height": 84.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 281.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

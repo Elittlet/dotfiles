@@ -1,0 +1,72 @@
+11:34:14 PM.576: CPU Name: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+11:34:14 PM.576: CPU Speed: 2800.000MHz
+11:34:14 PM.577: Physical Cores: 4, Logical Cores: 8
+11:34:14 PM.577: Physical Memory: 15894MB Total, 226MB Free
+11:34:14 PM.577: Kernel Version: Linux 4.14.12-1-ARCH
+11:34:14 PM.577: Distribution: "Arch Linux" Unknown
+11:34:14 PM.580: Portable mode: false
+11:34:14 PM.622: OBS 20.1.3-1 (linux)
+11:34:14 PM.622: ---------------------------------
+11:34:14 PM.622: ---------------------------------
+11:34:14 PM.622: audio settings reset:
+11:34:14 PM.622: 	samples per sec: 44100
+11:34:14 PM.622: 	speakers:        2
+11:34:14 PM.638: ---------------------------------
+11:34:14 PM.638: Initializing OpenGL...
+11:34:14 PM.789: OpenGL version: 4.5 (Core Profile) Mesa 17.3.1
+11:34:14 PM.856: ---------------------------------
+11:34:14 PM.856: video settings reset:
+11:34:14 PM.856: 	base resolution:   3840x2160
+11:34:14 PM.856: 	output resolution: 1920x1080
+11:34:14 PM.856: 	downscale filter:  Bicubic
+11:34:14 PM.856: 	fps:               30/1
+11:34:14 PM.856: 	format:            NV12
+11:34:14 PM.882: Audio monitoring device:
+11:34:14 PM.882: 	name: Default
+11:34:14 PM.882: 	id: default
+11:34:14 PM.882: ---------------------------------
+11:34:14 PM.896: No blackmagic support
+11:34:14 PM.901: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+11:34:14 PM.901: 
+11:34:14 PM.907: VLC found, VLC video source enabled
+11:34:14 PM.907: ---------------------------------
+11:34:14 PM.907:   Loaded Modules:
+11:34:14 PM.907:     vlc-video.so
+11:34:14 PM.907:     text-freetype2.so
+11:34:14 PM.907:     rtmp-services.so
+11:34:14 PM.907:     obs-x264.so
+11:34:14 PM.907:     obs-transitions.so
+11:34:14 PM.907:     obs-outputs.so
+11:34:14 PM.907:     obs-libfdk.so
+11:34:14 PM.907:     obs-filters.so
+11:34:14 PM.907:     obs-ffmpeg.so
+11:34:14 PM.907:     linux-v4l2.so
+11:34:14 PM.907:     linux-pulseaudio.so
+11:34:14 PM.907:     linux-jack.so
+11:34:14 PM.907:     linux-decklink.so
+11:34:14 PM.907:     linux-capture.so
+11:34:14 PM.907:     linux-alsa.so
+11:34:14 PM.907:     image-source.so
+11:34:14 PM.907:     frontend-tools.so
+11:34:14 PM.907: ---------------------------------
+11:34:14 PM.907: ==== Startup complete ===============================================
+11:34:14 PM.907: Service '' not found
+11:34:14 PM.908: All scene data cleared
+11:34:14 PM.908: ------------------------------------------------
+11:34:14 PM.911: pulse-input: Server name: 'pulseaudio 11.1'
+11:34:14 PM.911: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+11:34:14 PM.911: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+11:34:14 PM.935: pulse-input: Server name: 'pulseaudio 11.1'
+11:34:14 PM.936: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+11:34:14 PM.936: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+11:34:14 PM.994: Switched to scene 'Scene 2'
+11:34:14 PM.994: ------------------------------------------------
+11:34:14 PM.994: Loaded scenes:
+11:34:14 PM.994: - scene 'Scene':
+11:34:14 PM.994:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+11:34:14 PM.994: - scene 'Scene 2':
+11:34:14 PM.994: ------------------------------------------------
+11:34:15 PM.454: adding 46 milliseconds of audio buffering, total audio buffering is now 46 milliseconds
+11:34:42 PM.933: xshm-input: Geometry 3840x2160 @ 0,0
+11:34:42 PM.954: User added source 'Screen Capture (XSHM)' (xshm_input) to scene 'Scene 2'
+11:34:48 PM.594: User Removed source 'Screen Capture (XSHM)' (xshm_input) from scene 'Scene 2'

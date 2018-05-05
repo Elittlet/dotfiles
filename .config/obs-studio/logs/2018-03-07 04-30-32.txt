@@ -1,0 +1,102 @@
+04:30:32 AM.326: CPU Name: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+04:30:32 AM.326: CPU Speed: 3500.601MHz
+04:30:32 AM.327: Physical Cores: 4, Logical Cores: 8
+04:30:32 AM.327: Physical Memory: 15893MB Total, 14794MB Free
+04:30:32 AM.327: Kernel Version: Linux 4.15.7-1-ARCH
+04:30:32 AM.327: Distribution: "Arch Linux" Unknown
+04:30:32 AM.328: Portable mode: false
+04:30:32 AM.365: OBS 21.0.2-1 (linux)
+04:30:32 AM.365: ---------------------------------
+04:30:32 AM.365: ---------------------------------
+04:30:32 AM.365: audio settings reset:
+04:30:32 AM.365: 	samples per sec: 44100
+04:30:32 AM.365: 	speakers:        2
+04:30:32 AM.386: ---------------------------------
+04:30:32 AM.387: Initializing OpenGL...
+04:30:32 AM.488: OpenGL version: 4.5 (Core Profile) Mesa 17.3.6
+04:30:32 AM.538: ---------------------------------
+04:30:32 AM.538: video settings reset:
+04:30:32 AM.538: 	base resolution:   3840x2160
+04:30:32 AM.538: 	output resolution: 1920x1080
+04:30:32 AM.538: 	downscale filter:  Bicubic
+04:30:32 AM.538: 	fps:               30/1
+04:30:32 AM.538: 	format:            NV12
+04:30:32 AM.557: Audio monitoring device:
+04:30:32 AM.557: 	name: Default
+04:30:32 AM.557: 	id: default
+04:30:32 AM.558: ---------------------------------
+04:30:32 AM.560: os_dlopen(/usr//lib/obs-plugins/frontend-tools.so->/usr//lib/obs-plugins/frontend-tools.so): libluajit-5.1.so.2: cannot open shared object file: No such file or directory
+04:30:32 AM.560: 
+04:30:32 AM.560: Module '/usr//lib/obs-plugins/frontend-tools.so' not loaded
+04:30:32 AM.566: No blackmagic support
+04:30:32 AM.583: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+04:30:32 AM.583: 
+04:30:32 AM.596: VLC found, VLC video source enabled
+04:30:32 AM.596: ---------------------------------
+04:30:32 AM.596:   Loaded Modules:
+04:30:32 AM.596:     vlc-video.so
+04:30:32 AM.596:     text-freetype2.so
+04:30:32 AM.596:     rtmp-services.so
+04:30:32 AM.596:     obs-x264.so
+04:30:32 AM.596:     obs-transitions.so
+04:30:32 AM.596:     obs-outputs.so
+04:30:32 AM.596:     obs-libfdk.so
+04:30:32 AM.596:     obs-filters.so
+04:30:32 AM.596:     obs-ffmpeg.so
+04:30:32 AM.596:     linux-v4l2.so
+04:30:32 AM.596:     linux-pulseaudio.so
+04:30:32 AM.596:     linux-jack.so
+04:30:32 AM.596:     linux-decklink.so
+04:30:32 AM.596:     linux-capture.so
+04:30:32 AM.596:     linux-alsa.so
+04:30:32 AM.596:     image-source.so
+04:30:32 AM.596: ---------------------------------
+04:30:32 AM.596: ==== Startup complete ===============================================
+04:30:32 AM.596: Service '' not found
+04:30:32 AM.617: All scene data cleared
+04:30:32 AM.617: ------------------------------------------------
+04:30:32 AM.620: pulse-input: Server name: 'pulseaudio 11.1'
+04:30:32 AM.621: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+04:30:32 AM.621: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+04:30:32 AM.622: pulse-input: Server name: 'pulseaudio 11.1'
+04:30:32 AM.622: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+04:30:32 AM.622: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+04:30:32 AM.644: xcompcap: [window-capture: 'Window Capture (Xcomposite)'] update settings:
+04:30:32 AM.644: 	title: Terminal - messenger_with_files.py (~/Documents/Classes/CSC376/hw4) - VIM
+04:30:32 AM.644: 	class: xfce4-terminal
+04:30:32 AM.645: xshm-input: Geometry 3840x2160 @ 0,0
+04:30:32 AM.658: Switched to scene 'Scene 2'
+04:30:32 AM.658: ------------------------------------------------
+04:30:32 AM.658: Loaded scenes:
+04:30:32 AM.658: - scene 'Scene':
+04:30:32 AM.658:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+04:30:32 AM.658: - scene 'Scene 2':
+04:30:32 AM.659:     - source: 'Screen Capture (XSHM)' (xshm_input)
+04:30:32 AM.659: ------------------------------------------------
+04:30:33 AM.130: adding 23 milliseconds of audio buffering, total audio buffering is now 23 milliseconds
+04:30:33 AM.434: adding 23 milliseconds of audio buffering, total audio buffering is now 46 milliseconds
+04:31:41 AM.772: ---------------------------------
+04:31:41 AM.772: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+04:31:41 AM.772: [x264 encoder: 'simple_h264_recording'] profile: high
+04:31:41 AM.778: [x264 encoder: 'simple_h264_recording'] settings:
+04:31:41 AM.778: 	rate_control: CRF
+04:31:41 AM.778: 	bitrate:      0
+04:31:41 AM.778: 	buffer size:  0
+04:31:41 AM.778: 	crf:          23
+04:31:41 AM.778: 	fps_num:      30
+04:31:41 AM.778: 	fps_den:      1
+04:31:41 AM.778: 	width:        1920
+04:31:41 AM.778: 	height:       1080
+04:31:41 AM.778: 	keyint:       250
+04:31:41 AM.778: 
+04:31:41 AM.797: libfdk_aac encoder created
+04:31:41 AM.797: libfdk_aac bitrate: 128, channels: 2
+04:31:41 AM.802: ==== Recording Start ===============================================
+04:31:41 AM.802: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/elittlet/2018-03-07 04-31-41.flv'...
+04:39:25 AM.682: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/elittlet/2018-03-07 04-31-41.flv' stopped
+04:39:25 AM.682: Output 'simple_file_output': stopping
+04:39:25 AM.682: Output 'simple_file_output': Total frames output: 13885
+04:39:25 AM.682: Output 'simple_file_output': Total drawn frames: 13911 (13916 attempted)
+04:39:25 AM.682: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 5 (0.0%)
+04:39:25 AM.682: ==== Recording Stop ================================================
+04:39:25 AM.695: libfdk_aac encoder destroyed

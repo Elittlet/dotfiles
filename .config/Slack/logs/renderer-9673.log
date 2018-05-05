@@ -1,0 +1,182 @@
+[04/25/18, 17:23:01:505] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[04/25/18, 17:23:01:505] info: ║      Slack 3.1.1, linux 4.16.3-1-ARCH on x64 at 04/25/18, 17:23:01:501      ║
+[04/25/18, 17:23:01:505] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[04/25/18, 17:23:01:588] info: Initializing local storage instance at path: /home/elittlet/.config/Slack/local-settings.json
+[04/25/18, 17:23:01:845] error: Calls failed to load, bailing
+[04/25/18, 17:23:01:847] info: cld3::loadModule: loading cld3 module
+[04/25/18, 17:23:01:864] info: cld3Loader::loadModule: running environment is NODE
+[04/25/18, 17:23:01:865] info: cld3Loader::loadModule: constructed module object for runtime
+[04/25/18, 17:23:01:989] info: cld3Loader::initializeRuntime: successfully initialized module
+[04/25/18, 17:23:01:990] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[04/25/18, 17:23:01:992] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[04/25/18, 17:23:01:993] info: SSBIntegration: Main window preload script loaded 740.030747
+[04/25/18, 17:23:04:864] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T9YPM2U8N"
+}
+[04/25/18, 17:23:04:866] info: Store: MAIN_WINDOW_SHOWN
+[04/25/18, 17:23:05:852] info: postLoadTaskSetup: Desktop client fully loaded
+{
+  "loadedTime": 6241.811934
+}
+[04/25/18, 17:23:05:929] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T9YPM2U8N"
+}
+[04/25/18, 17:23:05:932] info: Store: SELECT_CHANNEL C9YPM2YCE
+[04/25/18, 17:23:05:932] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[04/25/18, 17:23:05:932] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[04/25/18, 17:23:05:939] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    33,
+    33
+  ],
+  "size": [
+    1955,
+    1039
+  ]
+}
+[04/25/18, 17:23:06:087] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T9YPM2U8N"
+}
+[04/25/18, 17:23:06:088] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T9YPM2U8N"
+}
+[04/25/18, 17:23:06:239] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T9YPM2U8N",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[04/25/18, 17:23:06:242] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T9YPM2U8N",
+  "token": "xoxs-⋯"
+}
+[04/25/18, 17:23:06:905] info: Raw Locale list: ["C","en_US.utf8","POSIX",""]
+[04/25/18, 17:23:06:905] info: Filtered Locale list: ["en_US"]
+[04/25/18, 17:23:06:905] info: Counts: {"en":["en_US"]}
+[04/25/18, 17:23:06:905] info: Setting en
+[04/25/18, 17:23:06:906] info: Result: {"en":"en-US"}
+[04/25/18, 17:23:06:907] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[04/25/18, 17:23:06:908] info: Loading dictionary for language en-US
+[04/25/18, 17:23:06:908] info: Returning local copy: /home/elittlet/.config/Slack/dictionaries/en-US.bdic
+[04/25/18, 17:23:06:909] info: Raw Locale list: ["C","en_US.utf8","POSIX",""]
+[04/25/18, 17:23:06:909] info: Filtered Locale list: ["en_US"]
+[04/25/18, 17:23:06:909] info: Counts: {"en":["en_US"]}
+[04/25/18, 17:23:06:909] info: Setting en
+[04/25/18, 17:23:06:909] info: Result: {"en":"en-US"}
+[04/25/18, 17:23:06:909] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[04/25/18, 17:23:06:909] info: Loading dictionary for language en-US
+[04/25/18, 17:23:06:909] info: Returning local copy: /home/elittlet/.config/Slack/dictionaries/en-US.bdic
+[04/25/18, 17:23:06:912] info: Setting current spellchecker to en-US, requested language was en-US
+[04/25/18, 17:23:06:912] info: Creating node-spellchecker instance
+[04/25/18, 17:23:06:913] info: Actually installing spell check provider to Electron
+[04/25/18, 17:23:06:914] info: Setting current spellchecker to en-US, requested language was en-US
+[04/25/18, 17:23:43:552] info: Unloading spellchecker
+[04/25/18, 17:23:43:553] info: Unloading spellchecker
+[04/25/18, 17:25:07:194] info: Restoring spellchecker
+[04/25/18, 17:25:07:197] info: Loading dictionary for language en-US
+[04/25/18, 17:25:07:198] info: Returning local copy: /home/elittlet/.config/Slack/dictionaries/en-US.bdic
+[04/25/18, 17:25:07:236] info: Setting current spellchecker to en-US, requested language was en-US
+[04/25/18, 17:25:07:236] info: Creating node-spellchecker instance
+[04/25/18, 17:25:14:300] info: Unloading spellchecker
+[04/25/18, 17:25:14:304] info: Unloading spellchecker
+[04/25/18, 17:26:54:054] info: Restoring spellchecker
+[04/25/18, 17:26:54:055] info: Loading dictionary for language en-US
+[04/25/18, 17:26:54:056] info: Returning local copy: /home/elittlet/.config/Slack/dictionaries/en-US.bdic
+[04/25/18, 17:26:54:085] info: Setting current spellchecker to en-US, requested language was en-US
+[04/25/18, 17:26:54:086] info: Creating node-spellchecker instance
+[04/25/18, 17:27:25:697] info: Unloading spellchecker
+[04/25/18, 17:27:25:700] info: Unloading spellchecker
+[04/25/18, 17:47:27:025] error: Apr-25 17:47:27.250 T9YPM2U8N SOCKET-MANAGER: Closing socket because #4105: client went offline
+[04/25/18, 17:47:27:420] info: Store: SET_NETWORK_STATUS offline
+[04/25/18, 18:14:58:024] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T9YPM2U8N"
+}
+[04/25/18, 18:15:02:278] info: Store: SET_NETWORK_STATUS online
+[04/25/18, 18:15:33:493] error: Apr-25 18:15:33.492 T9YPM2U8N SOCKET-MANAGER: Closing socket because #4105: client went offline
+[04/25/18, 18:24:32:651] error: Apr-25 18:24:32.651 T9YPM2U8N SOCKET-MANAGER: Closing socket because #4105: client went offline
+[04/25/18, 18:24:33:051] info: Store: SET_NETWORK_STATUS offline
+[04/25/18, 18:27:06:277] info: Store: SET_NETWORK_STATUS online
+[04/25/18, 18:27:20:582] error: Apr-25 18:27:20.582 T9YPM2U8N SOCKET-MANAGER: Closing socket because #4105: client went offline
+[04/25/18, 18:27:20:983] info: Store: SET_NETWORK_STATUS offline
+[04/25/18, 18:45:02:787] info: Restoring spellchecker
+[04/25/18, 18:45:02:788] info: Loading dictionary for language en-US
+[04/25/18, 18:45:02:789] info: Returning local copy: /home/elittlet/.config/Slack/dictionaries/en-US.bdic
+[04/25/18, 18:45:02:871] info: Setting current spellchecker to en-US, requested language was en-US
+[04/25/18, 18:45:02:872] info: Creating node-spellchecker instance
+[04/25/18, 18:45:09:048] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T9YPM2U8N"
+}
+[04/25/18, 18:45:13:224] info: Store: SET_NETWORK_STATUS online
+[04/25/18, 18:47:03:624] error: Apr-25 18:47:03.624 T9YPM2U8N SOCKET-MANAGER: Closing socket because #4105: client went offline
+[04/25/18, 18:47:04:026] info: Store: SET_NETWORK_STATUS offline
+[04/25/18, 18:47:06:273] info: Store: SET_NETWORK_STATUS online
+[04/25/18, 18:57:19:314] error: Apr-25 18:57:19.313 T9YPM2U8N SOCKET-MANAGER: Closing socket because #4105: client went offline
+[04/25/18, 18:57:19:713] info: Store: SET_NETWORK_STATUS offline
+[04/25/18, 18:57:20:885] info: Store: SET_NETWORK_STATUS online
+[04/25/18, 19:11:10:442] error: Apr-25 19:11:10.441 T9YPM2U8N SOCKET-MANAGER: Closing socket because #4105: client went offline
+[04/25/18, 19:11:10:840] info: Store: SET_NETWORK_STATUS offline
+[04/25/18, 19:11:14:190] info: Store: SET_NETWORK_STATUS online
+[04/25/18, 19:26:32:806] error: Apr-25 19:26:32.806 T9YPM2U8N SOCKET-MANAGER: Closing socket because #4105: client went offline
+[04/25/18, 19:55:14:289] info: Unloading spellchecker
+[04/25/18, 19:55:14:290] info: Unloading spellchecker
+[04/25/18, 19:57:38:252] error: Apr-25 19:57:38.252 T9YPM2U8N SOCKET-MANAGER: Closing socket because #4105: client went offline
+[04/25/18, 19:57:38:653] info: Store: SET_NETWORK_STATUS offline
+[04/26/18, 02:08:42:603] info: Store: SET_NETWORK_STATUS online
+[04/26/18, 02:08:50:273] error: Apr-26 02:08:50.273 T9YPM2U8N SOCKET-MANAGER: Closing socket because we spent 30000 ms in wait_for_connectivity state; giving up
+[04/26/18, 02:09:07:193] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T9YPM2U8N"
+}
+[04/26/18, 06:23:05:199] info: Restoring spellchecker
+[04/26/18, 06:23:05:202] info: Loading dictionary for language en-US
+[04/26/18, 06:23:05:203] info: Returning local copy: /home/elittlet/.config/Slack/dictionaries/en-US.bdic
+[04/26/18, 06:23:05:354] info: Setting current spellchecker to en-US, requested language was en-US
+[04/26/18, 06:23:05:354] info: Creating node-spellchecker instance
+[04/26/18, 06:23:06:950] info: Unloading spellchecker
+[04/26/18, 06:23:06:955] info: Unloading spellchecker
+[04/26/18, 06:23:07:460] info: Restoring spellchecker
+[04/26/18, 06:23:07:462] info: Loading dictionary for language en-US
+[04/26/18, 06:23:07:463] info: Returning local copy: /home/elittlet/.config/Slack/dictionaries/en-US.bdic
+[04/26/18, 06:23:07:616] info: Setting current spellchecker to en-US, requested language was en-US
+[04/26/18, 06:23:07:616] info: Creating node-spellchecker instance
+[04/26/18, 06:23:08:570] info: Unloading spellchecker
+[04/26/18, 06:23:08:574] info: Store: SET_FULL_SCREEN
+[04/26/18, 06:23:10:566] info: Store: FOREGROUND_APP
+[04/26/18, 06:23:10:844] info: Restoring spellchecker
+[04/26/18, 06:23:10:845] info: Loading dictionary for language en-US
+[04/26/18, 06:23:10:845] info: Returning local copy: /home/elittlet/.config/Slack/dictionaries/en-US.bdic
+[04/26/18, 06:23:10:917] info: Setting current spellchecker to en-US, requested language was en-US
+[04/26/18, 06:23:10:917] info: Creating node-spellchecker instance
+[04/26/18, 06:23:13:375] info: Store: QUIT_APP

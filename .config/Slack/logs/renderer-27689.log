@@ -1,0 +1,90 @@
+[05/03/18, 21:28:49:509] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[05/03/18, 21:28:49:510] info: ║      Slack 3.1.1, linux 4.16.6-1-ARCH on x64 at 05/03/18, 21:28:49:506      ║
+[05/03/18, 21:28:49:510] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[05/03/18, 21:28:49:731] info: Initializing local storage instance at path: /home/elittlet/.config/Slack/local-settings.json
+[05/03/18, 21:28:49:866] info: NetworkStatus: Waiting for network online…
+[05/03/18, 21:28:50:288] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[05/03/18, 21:28:50:691] info: Store: SET_NETWORK_STATUS online
+[05/03/18, 21:28:53:706] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T9YPM2U8N"
+}
+[05/03/18, 21:28:53:712] info: Store: MAIN_WINDOW_SHOWN
+[05/03/18, 21:28:53:868] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T9YPM2U8N"
+}
+[05/03/18, 21:28:54:677] info: Store: SELECT_CHANNEL C9YPM2YCE
+[05/03/18, 21:28:54:680] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[05/03/18, 21:28:54:682] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[05/03/18, 21:28:54:728] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    33,
+    33
+  ],
+  "size": [
+    1955,
+    1039
+  ]
+}
+[05/03/18, 21:28:57:802] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T9YPM2U8N"
+}
+[05/03/18, 21:28:57:814] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T9YPM2U8N"
+}
+[05/03/18, 21:28:57:891] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T9YPM2U8N",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[05/03/18, 21:28:58:038] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T9YPM2U8N",
+  "token": "xoxs-⋯"
+}
+[05/03/18, 23:52:00:807] info: Store: SET_FULL_SCREEN
+[05/04/18, 03:22:28:725] info: Store: SET_NETWORK_STATUS offline
+[05/04/18, 03:22:40:281] info: NetworkStatus: Waiting for network online…
+[05/04/18, 03:22:40:901] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[05/04/18, 03:22:41:775] info: Store: SET_NETWORK_STATUS online
+[05/04/18, 03:22:41:778] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[05/04/18, 03:22:42:519] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T9YPM2U8N"
+}
+[05/04/18, 03:24:04:628] info: Store: QUIT_APP
+[05/04/18, 03:24:04:642] info: Store: REMOVE_WINDOW 2
+[05/04/18, 03:24:04:691] info: Store: QUIT_APP

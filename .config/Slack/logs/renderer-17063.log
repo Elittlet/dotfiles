@@ -1,0 +1,183 @@
+[05/04/18, 16:40:10:597] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[05/04/18, 16:40:10:598] info: ║      Slack 3.1.1, linux 4.16.6-1-ARCH on x64 at 05/04/18, 16:40:10:593      ║
+[05/04/18, 16:40:10:598] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[05/04/18, 16:40:10:680] info: Initializing local storage instance at path: /home/elittlet/.config/Slack/local-settings.json
+[05/04/18, 16:40:10:928] error: Calls failed to load, bailing
+[05/04/18, 16:40:10:929] info: cld3::loadModule: loading cld3 module
+[05/04/18, 16:40:10:947] info: cld3Loader::loadModule: running environment is NODE
+[05/04/18, 16:40:10:947] info: cld3Loader::loadModule: constructed module object for runtime
+[05/04/18, 16:40:11:072] info: cld3Loader::initializeRuntime: successfully initialized module
+[05/04/18, 16:40:11:072] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[05/04/18, 16:40:11:074] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[05/04/18, 16:40:11:075] info: SSBIntegration: Main window preload script loaded 809.376004
+[05/04/18, 16:40:14:130] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T9YPM2U8N"
+}
+[05/04/18, 16:40:14:136] info: Store: MAIN_WINDOW_SHOWN
+[05/04/18, 16:40:14:556] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T9YPM2U8N"
+}
+[05/04/18, 16:40:14:783] info: postLoadTaskSetup: Desktop client fully loaded
+{
+  "loadedTime": 6205.252274
+}
+[05/04/18, 16:40:14:855] info: Store: SELECT_CHANNEL C9YPM2YCE
+[05/04/18, 16:40:14:856] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[05/04/18, 16:40:14:856] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[05/04/18, 16:40:14:863] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    33,
+    33
+  ],
+  "size": [
+    1955,
+    1039
+  ]
+}
+[05/04/18, 16:40:14:978] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T9YPM2U8N"
+}
+[05/04/18, 16:40:14:979] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T9YPM2U8N"
+}
+[05/04/18, 16:40:15:019] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T9YPM2U8N",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[05/04/18, 16:40:15:121] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T9YPM2U8N",
+  "token": "xoxs-⋯"
+}
+[05/04/18, 16:40:15:672] info: Raw Locale list: ["C","en_US.utf8","POSIX",""]
+[05/04/18, 16:40:15:672] info: Filtered Locale list: ["en_US"]
+[05/04/18, 16:40:15:672] info: Counts: {"en":["en_US"]}
+[05/04/18, 16:40:15:673] info: Setting en
+[05/04/18, 16:40:15:673] info: Result: {"en":"en-US"}
+[05/04/18, 16:40:15:674] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[05/04/18, 16:40:15:675] info: Loading dictionary for language en-US
+[05/04/18, 16:40:15:675] info: Returning local copy: /home/elittlet/.config/Slack/dictionaries/en-US.bdic
+[05/04/18, 16:40:15:677] info: Setting current spellchecker to en-US, requested language was en-US
+[05/04/18, 16:40:15:677] info: Creating node-spellchecker instance
+[05/04/18, 16:40:15:678] info: Actually installing spell check provider to Electron
+[05/04/18, 16:40:15:879] info: Loading dictionary for language en-US
+[05/04/18, 16:40:15:879] info: Returning local copy: /home/elittlet/.config/Slack/dictionaries/en-US.bdic
+[05/04/18, 16:40:15:907] info: Setting current spellchecker to en-US, requested language was en-US
+[05/04/18, 16:40:18:007] info: Store: SELECT_CHANNEL D9XTWPPS6
+[05/04/18, 16:40:20:004] info: Loading dictionary for language en-US
+[05/04/18, 16:40:20:005] info: Returning local copy: /home/elittlet/.config/Slack/dictionaries/en-US.bdic
+[05/04/18, 16:40:20:007] info: Setting current spellchecker to en-US, requested language was en-US
+[05/04/18, 17:01:13:554] info: Unloading spellchecker
+[05/04/18, 17:01:13:557] info: Unloading spellchecker
+[05/04/18, 17:09:33:238] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[05/04/18, 17:09:33:238] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[05/04/18, 17:09:33:325] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T9YPM2U8N-U9XTWG01Y-f88aa5405ce6-512",
+  "channel": "D9XTWPPS6",
+  "content": "[REDACTED]",
+  "id": "N833SNhRAyYrlR9",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D9XTWPPS6&message=1525471898.000128&team=T9YPM2U8N",
+  "msg": "1525471898.000128",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T9YPM2U8N",
+  "title": "[REDACTED]"
+}
+[05/04/18, 17:09:37:039] info: Restoring spellchecker
+[05/04/18, 17:09:37:039] info: Loading dictionary for language en-US
+[05/04/18, 17:09:37:040] info: Returning local copy: /home/elittlet/.config/Slack/dictionaries/en-US.bdic
+[05/04/18, 17:09:37:098] info: Setting current spellchecker to en-US, requested language was en-US
+[05/04/18, 17:09:37:098] info: Creating node-spellchecker instance
+[05/04/18, 17:09:39:866] info: Unloading spellchecker
+[05/04/18, 17:09:39:868] info: Unloading spellchecker
+[05/04/18, 17:11:05:611] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[05/04/18, 17:11:05:611] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[05/04/18, 17:11:05:628] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T9YPM2U8N-U9XTWG01Y-f88aa5405ce6-512",
+  "channel": "D9XTWPPS6",
+  "content": "[REDACTED]",
+  "id": "7APPtziNKAYR4gX",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D9XTWPPS6&message=1525471990.000335&team=T9YPM2U8N",
+  "msg": "1525471990.000335",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T9YPM2U8N",
+  "title": "[REDACTED]"
+}
+[05/04/18, 17:14:49:721] info: Restoring spellchecker
+[05/04/18, 17:14:49:722] info: Loading dictionary for language en-US
+[05/04/18, 17:14:49:722] info: Returning local copy: /home/elittlet/.config/Slack/dictionaries/en-US.bdic
+[05/04/18, 17:14:49:780] info: Setting current spellchecker to en-US, requested language was en-US
+[05/04/18, 17:14:49:780] info: Creating node-spellchecker instance
+[05/04/18, 17:17:18:324] info: SpellChecker::updateDetectedLanguage: language has changed from 'und' to 'en'
+{
+  "language": "en",
+  "probability": 0.9999961853027344,
+  "is_reliable": true,
+  "proportion": 1
+}
+[05/04/18, 17:17:18:325] info: SpellChecker::updateDetectedLanguage: detected language is distinct to current, push values
+[05/04/18, 17:32:16:053] info: Unloading spellchecker
+[05/04/18, 17:32:16:054] info: Unloading spellchecker
+[05/04/18, 17:32:36:875] info: Restoring spellchecker
+[05/04/18, 17:32:36:876] info: Loading dictionary for language en-US
+[05/04/18, 17:32:36:876] info: Returning local copy: /home/elittlet/.config/Slack/dictionaries/en-US.bdic
+[05/04/18, 17:32:36:914] info: Setting current spellchecker to en-US, requested language was en-US
+[05/04/18, 17:32:36:914] info: Creating node-spellchecker instance
+[05/04/18, 17:32:37:830] info: Unloading spellchecker
+[05/04/18, 17:32:37:831] info: Unloading spellchecker
+[05/04/18, 17:47:49:436] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[05/04/18, 17:47:49:437] warn: Unable to read quiet hours setting: windows-quiet-hours works only on Windows
+[05/04/18, 17:47:49:461] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T9YPM2U8N-U9XTWG01Y-f88aa5405ce6-512",
+  "channel": "D9XTWPPS6",
+  "content": "[REDACTED]",
+  "id": "wkJJF0sKrRNjl8P",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D9XTWPPS6&message=1525474194.000183&team=T9YPM2U8N",
+  "msg": "1525474194.000183",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T9YPM2U8N",
+  "title": "[REDACTED]"
+}
+[05/04/18, 17:47:51:695] info: Restoring spellchecker
+[05/04/18, 17:47:51:696] info: Loading dictionary for language en-US
+[05/04/18, 17:47:51:696] info: Returning local copy: /home/elittlet/.config/Slack/dictionaries/en-US.bdic
+[05/04/18, 17:47:51:796] info: Setting current spellchecker to en-US, requested language was en-US
+[05/04/18, 17:47:51:796] info: Creating node-spellchecker instance
+[05/04/18, 17:48:00:064] info: Unloading spellchecker
+[05/04/18, 17:48:00:065] info: Unloading spellchecker

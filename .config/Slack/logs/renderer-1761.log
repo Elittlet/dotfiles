@@ -1,0 +1,221 @@
+[04/23/18, 15:37:35:526] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[04/23/18, 15:37:35:527] info: ║      Slack 3.1.1, linux 4.16.3-1-ARCH on x64 at 04/23/18, 15:37:35:524      ║
+[04/23/18, 15:37:35:527] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[04/23/18, 15:37:35:702] info: Initializing local storage instance at path: /home/elittlet/.config/Slack/local-settings.json
+[04/23/18, 15:37:35:808] info: NetworkStatus: Waiting for network online…
+[04/23/18, 15:37:36:149] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/23/18, 15:37:36:560] info: Store: SET_NETWORK_STATUS online
+[04/23/18, 15:37:39:006] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T9YPM2U8N"
+}
+[04/23/18, 15:37:39:011] info: Store: MAIN_WINDOW_SHOWN
+[04/23/18, 15:37:39:165] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T9YPM2U8N"
+}
+[04/23/18, 15:37:39:633] info: Store: SELECT_CHANNEL C9YPM2YCE
+[04/23/18, 15:37:39:639] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[04/23/18, 15:37:39:643] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[04/23/18, 15:37:40:022] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    33,
+    33
+  ],
+  "size": [
+    1955,
+    1039
+  ]
+}
+[04/23/18, 15:37:40:840] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T9YPM2U8N"
+}
+[04/23/18, 15:37:40:858] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T9YPM2U8N"
+}
+[04/23/18, 15:37:41:076] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T9YPM2U8N",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[04/23/18, 15:37:41:092] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T9YPM2U8N",
+  "token": "xoxs-⋯"
+}
+[04/23/18, 16:18:56:934] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T9YPM2U8N-U9XTWG01Y-f88aa5405ce6-512",
+  "channel": "C9YPM2YCE",
+  "content": "[REDACTED]",
+  "id": "4lphJhWGWNw6rj",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C9YPM2YCE&message=1524518453.000250&team=T9YPM2U8N",
+  "msg": "1524518453.000250",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T9YPM2U8N",
+  "title": "[REDACTED]"
+}
+[04/23/18, 16:26:07:517] info: Store: SET_NETWORK_STATUS offline
+[04/23/18, 17:16:19:944] info: NetworkStatus: Waiting for network online…
+[04/23/18, 17:16:19:960] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/23/18, 17:16:19:961] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/23/18, 17:16:22:487] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T9YPM2U8N"
+}
+[04/23/18, 17:16:25:063] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/23/18, 17:16:25:466] info: Store: SET_NETWORK_STATUS online
+[04/23/18, 17:16:25:470] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[04/23/18, 17:29:48:074] info: Store: SET_NETWORK_STATUS offline
+[04/23/18, 17:51:05:037] info: NetworkStatus: Waiting for network online…
+[04/23/18, 17:51:05:050] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/23/18, 17:51:05:051] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/23/18, 17:51:06:118] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T9YPM2U8N"
+}
+[04/23/18, 17:51:10:096] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/23/18, 17:51:10:500] info: Store: SET_NETWORK_STATUS online
+[04/23/18, 17:51:10:503] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[04/23/18, 17:51:52:757] info: NetworkStatus: Waiting for network online…
+[04/23/18, 17:51:53:131] info: Store: SET_NETWORK_STATUS offline
+[04/23/18, 17:51:54:793] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/23/18, 17:51:55:196] info: Store: SET_NETWORK_STATUS online
+[04/23/18, 17:51:55:198] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[04/23/18, 17:54:14:793] info: Store: SELECT_CHANNEL D9YPN35HU
+[04/23/18, 17:54:21:301] info: Store: SELECT_CHANNEL C9YPM2YCE
+[04/23/18, 18:13:07:215] info: Store: SET_NETWORK_STATUS offline
+[04/23/18, 20:03:23:321] info: NetworkStatus: Waiting for network online…
+[04/23/18, 20:03:23:334] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/23/18, 20:03:23:336] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/23/18, 20:03:25:892] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T9YPM2U8N"
+}
+[04/23/18, 20:03:28:612] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/23/18, 20:03:29:015] info: Store: SET_NETWORK_STATUS online
+[04/23/18, 20:03:29:016] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[04/23/18, 21:16:54:996] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T9YPM2U8N-U9XBS6MR7-g26847b92e4c-512",
+  "channel": "C9YPM2YCE",
+  "content": "[REDACTED]",
+  "id": "oMNFDi6A6mn97D",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C9YPM2YCE&message=1524536331.000122&team=T9YPM2U8N",
+  "msg": "1524536331.000122",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T9YPM2U8N",
+  "title": "[REDACTED]"
+}
+[04/23/18, 21:17:13:451] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T9YPM2U8N-U9XBS6MR7-g26847b92e4c-512",
+  "channel": "C9YPM2YCE",
+  "content": "[REDACTED]",
+  "id": "6nrIVs505QGZ7m",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=C9YPM2YCE&message=1524536349.000243&team=T9YPM2U8N",
+  "msg": "1524536349.000243",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T9YPM2U8N",
+  "title": "[REDACTED]"
+}
+[04/23/18, 21:17:22:446] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    33,
+    33
+  ],
+  "size": [
+    961,
+    1039
+  ]
+}
+[04/23/18, 21:17:29:477] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    33,
+    33
+  ],
+  "size": [
+    1955,
+    1039
+  ]
+}

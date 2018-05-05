@@ -1,0 +1,24 @@
+[Added Associations]
+application/pdf=evince.desktop;
+text/plain=mousepad.desktop;
+application/msword=libreoffice-writer.desktop;
+application/zip=xarchiver.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
+image/png=feh.desktop;
+application/vnd.oasis.opendocument.text=libreoffice-writer.desktop;
+text/x-csrc=gvim.desktop;
+application/vnd.openxmlformats-officedocument.presentationml.presentation=libreoffice-impress.desktop;
+image/jpeg=feh.desktop;
+application/x-7z-compressed=xarchiver.desktop;
+video/x-matroska=vlc.desktop;
+image/gif=feh.desktop;
+video/x-flv=smplayer_enqueue.desktop;
+application/x-tar=xarchiver.desktop;
+d2l/unknowntype=mousepad.desktop;
+text/html=qutebrowser.desktop;
+application/javascript=mousepad.desktop;
+application/xspf+xml=vlc.desktop;
+video/x-msvideo=vlc.desktop;
+video/mpeg=vlc.desktop;
+video/mp4=vlc.desktop;
+text/x-python=mousepad.desktop;org.gnome.Builder.desktop;

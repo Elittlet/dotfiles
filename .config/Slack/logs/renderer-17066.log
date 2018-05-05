@@ -1,0 +1,116 @@
+[05/04/18, 16:40:09:966] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[05/04/18, 16:40:09:967] info: ║      Slack 3.1.1, linux 4.16.6-1-ARCH on x64 at 05/04/18, 16:40:09:964      ║
+[05/04/18, 16:40:09:967] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[05/04/18, 16:40:10:146] info: Initializing local storage instance at path: /home/elittlet/.config/Slack/local-settings.json
+[05/04/18, 16:40:10:252] info: NetworkStatus: Waiting for network online…
+[05/04/18, 16:40:10:599] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[05/04/18, 16:40:11:002] info: Store: SET_NETWORK_STATUS online
+[05/04/18, 16:40:13:178] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T9YPM2U8N"
+}
+[05/04/18, 16:40:13:184] info: Store: MAIN_WINDOW_SHOWN
+[05/04/18, 16:40:13:338] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T9YPM2U8N"
+}
+[05/04/18, 16:40:13:773] info: Store: SELECT_CHANNEL C9YPM2YCE
+[05/04/18, 16:40:13:783] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[05/04/18, 16:40:13:788] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[05/04/18, 16:40:14:195] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    33,
+    33
+  ],
+  "size": [
+    1955,
+    1039
+  ]
+}
+[05/04/18, 16:40:14:775] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T9YPM2U8N"
+}
+[05/04/18, 16:40:14:794] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T9YPM2U8N"
+}
+[05/04/18, 16:40:14:875] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T9YPM2U8N",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[05/04/18, 16:40:14:981] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T9YPM2U8N",
+  "token": "xoxs-⋯"
+}
+[05/04/18, 16:40:17:973] info: Store: SELECT_CHANNEL D9XTWPPS6
+[05/04/18, 17:09:33:249] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T9YPM2U8N-U9XTWG01Y-f88aa5405ce6-512",
+  "channel": "D9XTWPPS6",
+  "content": "[REDACTED]",
+  "id": "N833SNhRAyYrlR9",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D9XTWPPS6&message=1525471898.000128&team=T9YPM2U8N",
+  "msg": "1525471898.000128",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T9YPM2U8N",
+  "title": "[REDACTED]"
+}
+[05/04/18, 17:11:05:614] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T9YPM2U8N-U9XTWG01Y-f88aa5405ce6-512",
+  "channel": "D9XTWPPS6",
+  "content": "[REDACTED]",
+  "id": "7APPtziNKAYR4gX",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D9XTWPPS6&message=1525471990.000335&team=T9YPM2U8N",
+  "msg": "1525471990.000335",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T9YPM2U8N",
+  "title": "[REDACTED]"
+}
+[05/04/18, 17:47:49:440] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T9YPM2U8N-U9XTWG01Y-f88aa5405ce6-512",
+  "channel": "D9XTWPPS6",
+  "content": "[REDACTED]",
+  "id": "wkJJF0sKrRNjl8P",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D9XTWPPS6&message=1525474194.000183&team=T9YPM2U8N",
+  "msg": "1525474194.000183",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T9YPM2U8N",
+  "title": "[REDACTED]"
+}

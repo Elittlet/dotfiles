@@ -1,0 +1,203 @@
+[04/25/18, 17:23:01:023] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[04/25/18, 17:23:01:024] info: ║      Slack 3.1.1, linux 4.16.3-1-ARCH on x64 at 04/25/18, 17:23:01:020      ║
+[04/25/18, 17:23:01:024] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[04/25/18, 17:23:01:200] info: Initializing local storage instance at path: /home/elittlet/.config/Slack/local-settings.json
+[04/25/18, 17:23:01:302] info: NetworkStatus: Waiting for network online…
+[04/25/18, 17:23:01:594] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/25/18, 17:23:01:997] info: Store: SET_NETWORK_STATUS online
+[04/25/18, 17:23:04:073] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T9YPM2U8N"
+}
+[04/25/18, 17:23:04:077] info: Store: MAIN_WINDOW_SHOWN
+[04/25/18, 17:23:04:236] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T9YPM2U8N"
+}
+[04/25/18, 17:23:04:611] info: Store: SELECT_CHANNEL C9YPM2YCE
+[04/25/18, 17:23:04:614] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US"
+}
+[04/25/18, 17:23:04:621] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[04/25/18, 17:23:05:090] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    33,
+    33
+  ],
+  "size": [
+    1955,
+    1039
+  ]
+}
+[04/25/18, 17:23:05:847] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T9YPM2U8N"
+}
+[04/25/18, 17:23:05:860] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T9YPM2U8N"
+}
+[04/25/18, 17:23:06:081] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T9YPM2U8N",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[04/25/18, 17:23:06:090] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T9YPM2U8N",
+  "token": "xoxs-⋯"
+}
+[04/25/18, 17:47:27:420] info: Store: SET_NETWORK_STATUS offline
+[04/25/18, 18:14:56:758] info: NetworkStatus: Waiting for network online…
+[04/25/18, 18:14:56:773] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/25/18, 18:14:56:774] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/25/18, 18:14:57:952] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T9YPM2U8N"
+}
+[04/25/18, 18:15:01:874] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/25/18, 18:15:02:277] info: Store: SET_NETWORK_STATUS online
+[04/25/18, 18:15:02:281] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[04/25/18, 18:15:33:507] info: NetworkStatus: Waiting for network online…
+[04/25/18, 18:15:33:551] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/25/18, 18:24:33:051] info: Store: SET_NETWORK_STATUS offline
+[04/25/18, 18:27:00:798] info: NetworkStatus: Waiting for network online…
+[04/25/18, 18:27:00:805] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/25/18, 18:27:00:806] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/25/18, 18:27:05:874] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/25/18, 18:27:06:277] info: Store: SET_NETWORK_STATUS online
+[04/25/18, 18:27:06:279] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[04/25/18, 18:27:20:983] info: Store: SET_NETWORK_STATUS offline
+[04/25/18, 18:45:07:737] info: NetworkStatus: Waiting for network online…
+[04/25/18, 18:45:07:746] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/25/18, 18:45:07:746] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/25/18, 18:45:08:984] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T9YPM2U8N"
+}
+[04/25/18, 18:45:12:812] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/25/18, 18:45:13:218] info: Store: SET_NETWORK_STATUS online
+[04/25/18, 18:45:13:222] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[04/25/18, 18:47:04:024] info: Store: SET_NETWORK_STATUS offline
+[04/25/18, 18:47:05:820] info: NetworkStatus: Waiting for network online…
+[04/25/18, 18:47:05:868] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/25/18, 18:47:06:273] info: Store: SET_NETWORK_STATUS online
+[04/25/18, 18:47:06:276] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[04/25/18, 18:57:19:713] info: Store: SET_NETWORK_STATUS offline
+[04/25/18, 18:57:20:350] info: NetworkStatus: Waiting for network online…
+[04/25/18, 18:57:20:482] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/25/18, 18:57:20:885] info: Store: SET_NETWORK_STATUS online
+[04/25/18, 18:57:20:887] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[04/25/18, 19:11:10:840] info: Store: SET_NETWORK_STATUS offline
+[04/25/18, 19:11:12:700] info: NetworkStatus: Waiting for network online…
+[04/25/18, 19:11:13:785] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/25/18, 19:11:14:190] info: Store: SET_NETWORK_STATUS online
+[04/25/18, 19:11:14:193] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[04/25/18, 19:26:32:825] info: NetworkStatus: Waiting for network online…
+[04/25/18, 19:26:32:926] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/25/18, 19:57:38:650] info: Store: SET_NETWORK_STATUS offline
+[04/26/18, 02:08:36:958] info: NetworkStatus: Waiting for network online…
+[04/26/18, 02:08:36:965] info: NetworkStatus: Network check failed
+{
+  "error": {
+    "message": "Failed to fetch",
+    "stack": "TypeError: Failed to fetch"
+  }
+}
+[04/26/18, 02:08:36:966] info: NetworkStatus: Response from api.test
+{
+  "status": "offline"
+}
+[04/26/18, 02:08:42:199] info: NetworkStatus: Response from api.test
+{
+  "status": "online"
+}
+[04/26/18, 02:08:42:603] info: Store: SET_NETWORK_STATUS online
+[04/26/18, 02:08:42:604] warn: Base Component: Attempting to update LoadingScreen when unmounted.
+[04/26/18, 02:09:07:095] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T9YPM2U8N"
+}
+[04/26/18, 06:23:08:575] info: Store: SET_FULL_SCREEN
+[04/26/18, 06:23:10:566] info: Store: FOREGROUND_APP
+[04/26/18, 06:23:13:375] info: Store: QUIT_APP
+[04/26/18, 06:23:13:393] info: Store: REMOVE_WINDOW 2
+[04/26/18, 06:23:13:444] info: Store: QUIT_APP

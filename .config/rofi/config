@@ -1,0 +1,10 @@
+rofi.theme: ~/.config/rofi/theme.css
+
+rofi.fullscreen: true
+
+rofi.levenshtein-sort: true
+
+rofi.font: Operator Mono Light 18
+rofi.show-icons: true
+rofi.separator-style: solid
+rofi.dpi: 192

@@ -1,0 +1,106 @@
+11:37:24 PM.852: CPU Name: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+11:37:24 PM.852: CPU Speed: 2800.000MHz
+11:37:24 PM.852: Physical Cores: 4, Logical Cores: 8
+11:37:24 PM.852: Physical Memory: 15894MB Total, 15150MB Free
+11:37:24 PM.852: Kernel Version: Linux 4.14.12-1-ARCH
+11:37:24 PM.852: Distribution: "Arch Linux" Unknown
+11:37:24 PM.854: Portable mode: false
+11:37:24 PM.896: OBS 20.1.3-1 (linux)
+11:37:24 PM.896: ---------------------------------
+11:37:24 PM.897: ---------------------------------
+11:37:24 PM.897: audio settings reset:
+11:37:24 PM.897: 	samples per sec: 44100
+11:37:24 PM.897: 	speakers:        2
+11:37:24 PM.913: ---------------------------------
+11:37:24 PM.913: Initializing OpenGL...
+11:37:24 PM.986: OpenGL version: 4.5 (Core Profile) Mesa 17.3.1
+11:37:25 PM.085: ---------------------------------
+11:37:25 PM.085: video settings reset:
+11:37:25 PM.085: 	base resolution:   3840x2160
+11:37:25 PM.085: 	output resolution: 1920x1080
+11:37:25 PM.085: 	downscale filter:  Bicubic
+11:37:25 PM.085: 	fps:               30/1
+11:37:25 PM.085: 	format:            NV12
+11:37:25 PM.102: Audio monitoring device:
+11:37:25 PM.102: 	name: Default
+11:37:25 PM.102: 	id: default
+11:37:25 PM.103: ---------------------------------
+11:37:25 PM.120: No blackmagic support
+11:37:25 PM.137: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+11:37:25 PM.137: 
+11:37:25 PM.148: VLC found, VLC video source enabled
+11:37:25 PM.148: ---------------------------------
+11:37:25 PM.148:   Loaded Modules:
+11:37:25 PM.148:     vlc-video.so
+11:37:25 PM.148:     text-freetype2.so
+11:37:25 PM.148:     rtmp-services.so
+11:37:25 PM.148:     obs-x264.so
+11:37:25 PM.148:     obs-transitions.so
+11:37:25 PM.148:     obs-outputs.so
+11:37:25 PM.148:     obs-libfdk.so
+11:37:25 PM.148:     obs-filters.so
+11:37:25 PM.148:     obs-ffmpeg.so
+11:37:25 PM.148:     linux-v4l2.so
+11:37:25 PM.148:     linux-pulseaudio.so
+11:37:25 PM.148:     linux-jack.so
+11:37:25 PM.148:     linux-decklink.so
+11:37:25 PM.148:     linux-capture.so
+11:37:25 PM.148:     linux-alsa.so
+11:37:25 PM.148:     image-source.so
+11:37:25 PM.148:     frontend-tools.so
+11:37:25 PM.148: ---------------------------------
+11:37:25 PM.148: ==== Startup complete ===============================================
+11:37:25 PM.149: Service '' not found
+11:37:25 PM.162: All scene data cleared
+11:37:25 PM.162: ------------------------------------------------
+11:37:25 PM.164: pulse-input: Server name: 'pulseaudio 11.1'
+11:37:25 PM.165: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+11:37:25 PM.165: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+11:37:25 PM.252: pulse-input: Server name: 'pulseaudio 11.1'
+11:37:25 PM.253: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+11:37:25 PM.253: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+11:37:25 PM.254: xshm-input: Geometry 3840x2160 @ 0,0
+11:37:25 PM.295: Switched to scene 'Scene 2'
+11:37:25 PM.296: ------------------------------------------------
+11:37:25 PM.296: Loaded scenes:
+11:37:25 PM.296: - scene 'Scene':
+11:37:25 PM.296:     - source: 'Window Capture (Xcomposite)' (xcomposite_input)
+11:37:25 PM.296: - scene 'Scene 2':
+11:37:25 PM.296: ------------------------------------------------
+11:37:25 PM.754: adding 23 milliseconds of audio buffering, total audio buffering is now 23 milliseconds
+11:37:26 PM.430: adding 23 milliseconds of audio buffering, total audio buffering is now 46 milliseconds
+11:37:37 PM.785: User added source 'Scene' (scene) to scene 'Scene 2'
+11:37:49 PM.065: User Removed source 'Scene' (scene) from scene 'Scene 2'
+11:38:52 PM.343: xshm-input: Geometry 3840x2160 @ 0,0
+11:38:52 PM.392: User added source 'Screen Capture (XSHM)' (xshm_input) to scene 'Scene 2'
+11:38:57 PM.713: xshm-input: Geometry 3840x2160 @ 0,0
+11:39:13 PM.030: xshm-input: Geometry 3840x2160 @ 0,0
+11:39:14 PM.521: xshm-input: Geometry 3840x2160 @ 0,0
+11:39:15 PM.594: xshm-input: Geometry 3840x2160 @ 0,0
+11:39:18 PM.890: xshm-input: Geometry 3840x2160 @ 0,0
+11:39:30 PM.324: ---------------------------------
+11:39:30 PM.324: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+11:39:30 PM.324: [x264 encoder: 'simple_h264_recording'] profile: high
+11:39:30 PM.330: [x264 encoder: 'simple_h264_recording'] settings:
+11:39:30 PM.330: 	rate_control: CRF
+11:39:30 PM.330: 	bitrate:      0
+11:39:30 PM.330: 	buffer size:  0
+11:39:30 PM.330: 	crf:          23
+11:39:30 PM.330: 	fps_num:      30
+11:39:30 PM.330: 	fps_den:      1
+11:39:30 PM.330: 	width:        1920
+11:39:30 PM.330: 	height:       1080
+11:39:30 PM.330: 	keyint:       250
+11:39:30 PM.330: 
+11:39:30 PM.366: libfdk_aac encoder created
+11:39:30 PM.366: libfdk_aac bitrate: 128, channels: 2
+11:39:30 PM.379: ==== Recording Start ===============================================
+11:39:30 PM.379: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/elittlet/2018-01-09 23-39-30.flv'...
+11:39:56 PM.386: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/elittlet/2018-01-09 23-39-30.flv' stopped
+11:39:56 PM.387: Output 'simple_file_output': stopping
+11:39:56 PM.387: Output 'simple_file_output': Total frames output: 747
+11:39:56 PM.387: Output 'simple_file_output': Total drawn frames: 663 (781 attempted)
+11:39:56 PM.387: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 118 (15.1%)
+11:39:56 PM.387: ==== Recording Stop ================================================
+11:39:56 PM.413: libfdk_aac encoder destroyed
+11:44:47 PM.261: adding 23 milliseconds of audio buffering, total audio buffering is now 69 milliseconds

@@ -1,0 +1,12 @@
+[04/25/18, 17:23:01:154] info: ╔═════════════════════════════════════════════════════════════════════════════╗
+[04/25/18, 17:23:01:154] info: ║      Slack 3.1.1, linux 4.16.3-1-ARCH on x64 at 04/25/18, 17:23:01:151      ║
+[04/25/18, 17:23:01:154] info: ╚═════════════════════════════════════════════════════════════════════════════╝
+[04/25/18, 17:23:01:221] info: Initializing local storage instance at path: /home/elittlet/.config/Slack/local-settings.json
+[04/25/18, 17:23:01:997] info: Store: SET_NETWORK_STATUS online
+[04/25/18, 17:23:04:073] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T9YPM2U8N"
+}
+[04/25/18, 17:23:04:077] info: Store: MAIN_WINDOW_SHOWN

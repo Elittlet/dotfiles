@@ -1,0 +1,108 @@
+
+super + alt + {_,shift + }Escape
+	{bspc wm -d > "$BSPWM_STATE" && bspc quit, \
+	 bspc quit 1}
+
+super + {_,shift} + c
+	bspc desktop -C {backward, forward}
+
+super + {t, s, f, p}
+	bspc node -t {tiled, floating, fullscreen, pseudo_tiled}
+
+super + shift + p
+	bspc node -g sticky
+
+XF86AudioPlay
+	mpc -q toggle
+
+	XF86AudioStop
+	mpc stop
+
+XF86Audio{Prev,Next}
+	mpc -q {prev,next}
+
+super + {_,shift} + r
+	bspc node @/ -R {90,270}
+
+super + {_,shift} + q
+	bspc node -{c,k}
+
+super + m
+	bspc node -s biggest.local
+
+super + {_,shift} + Tab
+	bspc node -f {prev, next}.local
+
+super + {Left,Down,Up,Right}
+	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+super + Return
+	xfce4-terminal
+
+super + {h, j, k, l}
+	bspc node -f {west, south, north, east
+
+super + space
+	rofi -show run
+
+super + {_,shift} + i
+    insert={true,false}; \
+    $insert && bspc node -i || \
+    for win in `bspc query -N -n .leaf.!window.local`; do bspc node $win -k ; done;
+
+super + {b,e}
+	bspc node @/ -{B,E}
+
+super + ctrl + {h,j,k,l}
+	bspc node -p {west,south,north,east}
+
+super + ctrl + {1-9}
+	bspc node -o 0.{1-9}
+
+ctrl + super + space
+	bspc node -p cancel
+
+super + shift + {h, l}
+	bspc node -m {prev, next}; bspc monitor -f {prev, next}
+
+super + alt + {h, j, k, l}
+	bspc node {@west -r -10,@south -r +10,@north -r -10,@east -r +10}
+
+super + shift + alt + {h, j, k, l}
+	bspc node {@east -r -10,@north -r +10,@south -r -10,@west -r +10}
+
+super + r
+	bspc node -R 90
+
+super + {w, e}
+	bspc window -r {west 90, south 90}
+
+alt + {minus, equal}
+	padding {+, -}
+
+super + {1-9}
+	D={1-9}; \
+	bspc desktop -f "$(bspc query -D -m | sed -n "$D p")"
+
+super + shift + {1-5}
+	bspc node $node -d {0, 1, 2, 3, 4};
+
+alt + space
+	rofi -show window
+
+super + Escape
+	pkill -USR1 -x sxhkd && xrdb -load ~/.Xresources
+
+XF86Audio{Prev,Next}
+     mpc -q {prev,next}
+
+
+XF86AudioPlay
+     mpc -q toggle
+
+XF86Audio{LowerVolume,RaiseVolume}
+    amixer -q sset Master 3%{-,+}
+
+XF86AudioMute
+    amixer -q set Master toggle
+
